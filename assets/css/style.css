@@ -26,6 +26,46 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
 
+.import {
+ font-size: 130%;
+}
+
+.time_graph {
+  display: flex;
+}
+.item_1 {
+  flex: 0 1 50%;
+
+}
+.item_2 {
+  flex: 1 1 auto;
+}
+
+.text{
+  position: relative;
+  text-align: left;
+  float: left;
+  clear: left;
+}
+
+.text:after {
+  content: "";
+  position: absolute;
+  border-top: 1px solid black;
+  left: 35%;
+  bottom: 0;
+  width: 30%;
+  height: 0px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -125,7 +165,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #ddecf5;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 12.5px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -330,6 +370,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 130%;
   height: 95%;
   background: linear-gradient(to right, rgba(30, 67, 86, 0.6), rgba(30, 67, 86, 0.4)), url("../img/hero-bg.jpg");
+/* 30, 67, 86 */
 background-position: center top;
     background-size: 77% auto;
   z-index: 0;
